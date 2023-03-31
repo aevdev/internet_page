@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--Шрифт-->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="page__wrap">
+        <header class="header">
+            <div class="header__content">
+                <div class="container">
+                    <div class="header__content-inner">
+                        <div class="header__nav">
+                            <div class="header__logo">
+                                <a href="#">
+                                    <img src="img/tmdb_logo.svg" alt="">
+                                </a>
+                            </div>
+                            <nav class="menu">
+                                <ul>
+                                    <li><a href="#">Фильмы</a></li>
+                                    <li><a href="#">Сериалы</a></li>
+                                    <li><a href="#">Люди</a></li>
+                                    <li><a href="#">Ещё</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="header__flex">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <span class="glyphicons__plus"></span>
+                                    </a>
+                                </li>
+                                <li class="translate">
+                                    <div>RU</div>
+                                </li>
+                                <li><a href="#">Войти</a></li>
+                                <li><a href="#">Присоединиться к TMDB</a></li>
+                                <li>
+                                    <a href="#">
+                                        <span class="glyphicons__search"></span>
+                                    </a>
+                                </li>    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <section class="main__inner-content">
+                    <div class="main__media-discover">
+                        <div class="media__column-wrapper">
+                            <div class="media__content-wrapper">
+                                <div class="media__title">
+                                    <h2>Добро пожаловать.</h2>
+                                    <h3>Миллионы фильмов, сериалов и людей. Исследуйте сейчас.</h3>
+                                </div>
+                                <div class="media__search">
+                                    <form action="#">
+                                        <label>
+                                            <input class="search__box" dir="auto" id="inner_search_v4" type="text" tabindex="1" autocorrect="off" autofill="off" autocomplete="off" spellcheck="false" placeholder="Найти фильм, сериал, персону......" value="">
+                                        </label>
+                                        <input class="search__button" type="submit" value="Search">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="main__trending">
+                    <div class="main__movies">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
